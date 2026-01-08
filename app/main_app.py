@@ -11,7 +11,7 @@ if current_dir not in sys.path:
 # 2. IMPORTS DES MODULES (Vérifie bien que les fichiers existent dans /app)
 try:
     from single_asset import run_quant_a
-    from portfolio import run_quant_b
+    from quant_b import run_quant_b
 except ImportError as e:
     st.error(f"Erreur d'importation : {e}")
 

@@ -1,0 +1,17 @@
+RAPPORT QUANT DU 08/01/2026 20:00
+========================================
+Actif : AAPL
+ - Dernier prix : 256.93
+ - Volatilité Annuelle : 6.90%
+ - Max Drawdown : -5.20%
+--------------------
+Actif : BTC-USD
+ - Dernier prix : 90948.30
+ - Volatilité Annuelle : 34.42%
+ - Max Drawdown : -3.13%
+--------------------
+Actif : EURUSD=X
+ - Dernier prix : 1.16
+ - Volatilité Annuelle : 3.41%
+ - Max Drawdown : -0.87%
+--------------------

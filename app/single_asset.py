@@ -1,21 +1,25 @@
-
 import streamlit as st
 import yfinance as yf
-import pandas as pd
 import numpy as np
 
-st.title("📈 Projet Quant – Dashboard")
+def run_quant_a():
+    st.title("📈 Analyse Mono-Actif (Quant A)")
+    ticker = st.sidebar.text_input("Ticker", "AAPL") # Sidebar pour plus de clarté
+    
+    # Récupération des données [cite: 15]
+    data = yf.download(ticker, period="1y", interval="1d")
+    
+    if not data.empty:
+        # Calculs [cite: 34]
+        data["Return"] = data["Close"].pct_change()
+        volatility = data["Return"].std() * np.sqrt(252)
 
-ticker = st.text_input("Ticker", "AAPL")
+        st.subheader(f"Indicateurs pour {ticker}")
+        st.metric("Volatilité annuelle", f"{volatility:.2%}")
 
-data = yf.download(ticker, period="1y", interval="1d")
-
-data["Return"] = data["Close"].pct_change()
-volatility = data["Return"].std() * np.sqrt(252)
-
-st.subheader("Indicateurs")
-st.metric("Volatilité annuelle", f"{volatility:.2%}")
-
-st.subheader("Prix de clôture")
-st.line_chart(data["Close"])
-
+        # Exigence : Graphique du prix [cite: 35]
+        st.subheader("Prix de clôture")
+        st.line_chart(data["Close"])
+        
+        # NOTE : Tu dois encore ajouter les 2 stratégies de backtesting 
+        # et le graphique combiné pour valider ce module.
