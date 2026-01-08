@@ -1,17 +1,17 @@
-RAPPORT QUANT DU 08/01/2026 22:41
+QUANT REPORT — 08/01/2026 22:41
 ========================================
-Actif : AAPL
- - Dernier prix : 259.04
- - Volatilité Annuelle : 9.56%
- - Max Drawdown : -4.42%
+Asset: AAPL
+ - Last price: 259.04
+ - Annualized volatility: 9.56%
+ - Max drawdown: -4.42%
 --------------------
-Actif : BTC-USD
- - Dernier prix : 91172.15
- - Volatilité Annuelle : 34.30%
- - Max Drawdown : -2.89%
+Asset: BTC-USD
+ - Last price: 91172.15
+ - Annualized volatility: 34.30%
+ - Max drawdown: -2.89%
 --------------------
-Actif : EURUSD=X
- - Dernier prix : 1.17
- - Volatilité Annuelle : 3.19%
- - Max Drawdown : -0.77%
+Asset: EURUSD=X
+ - Last price: 1.17
+ - Annualized volatility: 3.19%
+ - Max drawdown: -0.77%
 --------------------
