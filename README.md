@@ -3,6 +3,8 @@ I am Timothee and with Matheo we created this project
 Financial Quant Project - Multi-Module Dashboard
 This project is a modular financial analysis tool built with Python and Streamlit. It features real-time data visualization, portfolio correlation analysis, and automated daily reporting.
 
+The platform is deployed on a 24/7 Linux server and is publicly accessible at the following address: http://13.49.227.138:8501
+
 Features :
 
 Module A (Single Asset): Real-time stock data fetching and technical analysis using yfinance.
@@ -12,6 +14,7 @@ Module B (Portfolio): Asset correlation matrix and portfolio performance metrics
 Automated Reporting: A background cron job that generates daily market summaries.
 
 24/7 Deployment: Configured to run persistently on a Linux server.
+
 
 Installation & Setup:
 
