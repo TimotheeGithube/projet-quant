@@ -52,11 +52,20 @@ Generated reports are saved in the /data directory.
 Plaintext
 
 ├── app/
+
 │   ├── main_app.py      # Entry point (Navigation Menu)
+
 │   ├── single_asset.py  # Module A logic
+
 │   └── quant_b.py       # Module B logic
+
 ├── cron/
+
 │   └── generate_daily_report.py # Automated script
+
 ├── data/                # Storage for generated reports
+
 ├── venv/                # Python virtual environment
+
 └── streamlit_log.txt    # Production server logs
+
